@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        ZStack{
+            Rectangle()
+            LottieView(filename: "PinJump")
+        }
+        .frame(width: 360,height: 360)
+        .cornerRadius(30)
+        .shadow(radius: 30)
     }
 }
 
