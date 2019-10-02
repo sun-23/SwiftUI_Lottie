@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44C12D222DA09400018AF1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C12D122DA09400018AF1A /* AppDelegate.swift */; };
+		A44C12D422DA09400018AF1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C12D322DA09400018AF1A /* SceneDelegate.swift */; };
+		A44C12D622DA09400018AF1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C12D522DA09400018AF1A /* ContentView.swift */; };
+		A44C12D822DA09420018AF1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44C12D722DA09420018AF1A /* Assets.xcassets */; };
+		A44C12DB22DA09420018AF1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44C12DA22DA09420018AF1A /* Preview Assets.xcassets */; };
+		A44C12DE22DA09420018AF1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44C12DC22DA09420018AF1A /* LaunchScreen.storyboard */; };
+		A44C12E922DA09420018AF1A /* SwiftUI_LottieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C12E822DA09420018AF1A /* SwiftUI_LottieTests.swift */; };
+		A44C12F422DA09420018AF1A /* SwiftUI_LottieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C12F322DA09420018AF1A /* SwiftUI_LottieUITests.swift */; };
+		A44C130322DA0A440018AF1A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A44C130222DA0A440018AF1A /* Lottie */; };
+		A44C133A22DA0AF00018AF1A /* Switch.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130522DA0AF00018AF1A /* Switch.json */; };
+		A44C133B22DA0AF00018AF1A /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130622DA0AF00018AF1A /* TwitterHeart.json */; };
+		A44C133C22DA0AF00018AF1A /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130722DA0AF00018AF1A /* 9squares-AlBoardman.json */; };
+		A44C133D22DA0AF00018AF1A /* MotionCorpse-Jrcanest.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130822DA0AF00018AF1A /* MotionCorpse-Jrcanest.json */; };
+		A44C133E22DA0AF00018AF1A /* TwitterHeartButton.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130922DA0AF00018AF1A /* TwitterHeartButton.json */; };
+		A44C133F22DA0AF00018AF1A /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130B22DA0AF00018AF1A /* T.json */; };
+		A44C134022DA0AF00018AF1A /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130C22DA0AF00018AF1A /* A.json */; };
+		A44C134122DA0AF00018AF1A /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130D22DA0AF00018AF1A /* X.json */; };
+		A44C134222DA0AF00018AF1A /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130E22DA0AF00018AF1A /* BlinkingCursor.json */; };
+		A44C134322DA0AF00018AF1A /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C130F22DA0AF00018AF1A /* M.json */; };
+		A44C134422DA0AF00018AF1A /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131022DA0AF00018AF1A /* L.json */; };
+		A44C134522DA0AF00018AF1A /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131122DA0AF00018AF1A /* Y.json */; };
+		A44C134622DA0AF00018AF1A /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131222DA0AF00018AF1A /* U.json */; };
+		A44C134722DA0AF00018AF1A /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131322DA0AF00018AF1A /* K.json */; };
+		A44C134822DA0AF00018AF1A /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131422DA0AF00018AF1A /* R.json */; };
+		A44C134922DA0AF00018AF1A /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131522DA0AF00018AF1A /* G.json */; };
+		A44C134A22DA0AF00018AF1A /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131622DA0AF00018AF1A /* F.json */; };
+		A44C134B22DA0AF00018AF1A /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131722DA0AF00018AF1A /* S.json */; };
+		A44C134C22DA0AF00018AF1A /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131822DA0AF00018AF1A /* J.json */; };
+		A44C134D22DA0AF00018AF1A /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131922DA0AF00018AF1A /* I.json */; };
+		A44C134E22DA0AF00018AF1A /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131A22DA0AF00018AF1A /* E.json */; };
+		A44C134F22DA0AF00018AF1A /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131B22DA0AF00018AF1A /* Apostrophe.json */; };
+		A44C135022DA0AF00018AF1A /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131C22DA0AF00018AF1A /* P.json */; };
+		A44C135122DA0AF00018AF1A /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131D22DA0AF00018AF1A /* Q.json */; };
+		A44C135222DA0AF00018AF1A /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131E22DA0AF00018AF1A /* D.json */; };
+		A44C135322DA0AF00018AF1A /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C131F22DA0AF00018AF1A /* Colon.json */; };
+		A44C135422DA0AF00018AF1A /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132022DA0AF00018AF1A /* H.json */; };
+		A44C135522DA0AF00018AF1A /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132122DA0AF00018AF1A /* C.json */; };
+		A44C135622DA0AF00018AF1A /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132222DA0AF00018AF1A /* V.json */; };
+		A44C135722DA0AF00018AF1A /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132322DA0AF00018AF1A /* Comma.json */; };
+		A44C135822DA0AF00018AF1A /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132422DA0AF00018AF1A /* O.json */; };
+		A44C135922DA0AF00018AF1A /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132522DA0AF00018AF1A /* Z.json */; };
+		A44C135A22DA0AF00018AF1A /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132622DA0AF00018AF1A /* N.json */; };
+		A44C135B22DA0AF00018AF1A /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132722DA0AF00018AF1A /* W.json */; };
+		A44C135C22DA0AF00018AF1A /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132822DA0AF00018AF1A /* B.json */; };
+		A44C135D22DA0AF00018AF1A /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132922DA0AF00018AF1A /* HamburgerArrow.json */; };
+		A44C135E22DA0AF00018AF1A /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132A22DA0AF00018AF1A /* vcTransition1.json */; };
+		A44C135F22DA0AF00018AF1A /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132B22DA0AF00018AF1A /* LottieLogo2.json */; };
+		A44C136022DA0AF00018AF1A /* Boat_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132C22DA0AF00018AF1A /* Boat_Loader.json */; };
+		A44C136122DA0AF00018AF1A /* GeometryTransformTest.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132D22DA0AF00018AF1A /* GeometryTransformTest.json */; };
+		A44C136222DA0AF00018AF1A /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132E22DA0AF00018AF1A /* Watermelon.json */; };
+		A44C136322DA0AF00018AF1A /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C132F22DA0AF00018AF1A /* IconTransitions.json */; };
+		A44C136422DA0AF00018AF1A /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133022DA0AF00018AF1A /* vcTransition2.json */; };
+		A44C136522DA0AF00018AF1A /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133122DA0AF00018AF1A /* LottieLogo1.json */; };
+		A44C136622DA0AF00018AF1A /* base64Test.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133222DA0AF00018AF1A /* base64Test.json */; };
+		A44C136722DA0AF00018AF1A /* Switch_States.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133322DA0AF00018AF1A /* Switch_States.json */; };
+		A44C136822DA0AF00018AF1A /* FirstText.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133422DA0AF00018AF1A /* FirstText.json */; };
+		A44C136922DA0AF00018AF1A /* setValueTest.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133522DA0AF00018AF1A /* setValueTest.json */; };
+		A44C136A22DA0AF00018AF1A /* keypathTest.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133622DA0AF00018AF1A /* keypathTest.json */; };
+		A44C136B22DA0AF00018AF1A /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133722DA0AF00018AF1A /* PinJump.json */; };
+		A44C136C22DA0AF00018AF1A /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133822DA0AF00018AF1A /* LottieLogo1_masked.json */; };
+		A44C136D22DA0AF00018AF1A /* timeremap.json in Resources */ = {isa = PBXBuildFile; fileRef = A44C133922DA0AF00018AF1A /* timeremap.json */; };
+		A44C136F22DA0B130018AF1A /* LottiePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C136E22DA0B130018AF1A /* LottiePlay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A44C12E522DA09420018AF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44C12C622DA09400018AF1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44C12CD22DA09400018AF1A;
+			remoteInfo = SwiftUI_Lottie;
+		};
+		A44C12F022DA09420018AF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44C12C622DA09400018AF1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44C12CD22DA09400018AF1A;
+			remoteInfo = SwiftUI_Lottie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A44C12CE22DA09400018AF1A /* SwiftUI_Lottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Lottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44C12D122DA09400018AF1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A44C12D322DA09400018AF1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A44C12D522DA09400018AF1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A44C12D722DA09420018AF1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44C12DA22DA09420018AF1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A44C12DD22DA09420018AF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A44C12DF22DA09420018AF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44C12E422DA09420018AF1A /* SwiftUI_LottieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_LottieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44C12E822DA09420018AF1A /* SwiftUI_LottieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LottieTests.swift; sourceTree = "<group>"; };
+		A44C12EA22DA09420018AF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44C12EF22DA09420018AF1A /* SwiftUI_LottieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_LottieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44C12F322DA09420018AF1A /* SwiftUI_LottieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LottieUITests.swift; sourceTree = "<group>"; };
+		A44C12F522DA09420018AF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44C130522DA0AF00018AF1A /* Switch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch.json; sourceTree = "<group>"; };
+		A44C130622DA0AF00018AF1A /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		A44C130722DA0AF00018AF1A /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		A44C130822DA0AF00018AF1A /* MotionCorpse-Jrcanest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MotionCorpse-Jrcanest.json"; sourceTree = "<group>"; };
+		A44C130922DA0AF00018AF1A /* TwitterHeartButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeartButton.json; sourceTree = "<group>"; };
+		A44C130B22DA0AF00018AF1A /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		A44C130C22DA0AF00018AF1A /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		A44C130D22DA0AF00018AF1A /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		A44C130E22DA0AF00018AF1A /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		A44C130F22DA0AF00018AF1A /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		A44C131022DA0AF00018AF1A /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		A44C131122DA0AF00018AF1A /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		A44C131222DA0AF00018AF1A /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		A44C131322DA0AF00018AF1A /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		A44C131422DA0AF00018AF1A /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		A44C131522DA0AF00018AF1A /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		A44C131622DA0AF00018AF1A /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		A44C131722DA0AF00018AF1A /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		A44C131822DA0AF00018AF1A /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		A44C131922DA0AF00018AF1A /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		A44C131A22DA0AF00018AF1A /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		A44C131B22DA0AF00018AF1A /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		A44C131C22DA0AF00018AF1A /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		A44C131D22DA0AF00018AF1A /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		A44C131E22DA0AF00018AF1A /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		A44C131F22DA0AF00018AF1A /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		A44C132022DA0AF00018AF1A /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		A44C132122DA0AF00018AF1A /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		A44C132222DA0AF00018AF1A /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		A44C132322DA0AF00018AF1A /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		A44C132422DA0AF00018AF1A /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		A44C132522DA0AF00018AF1A /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		A44C132622DA0AF00018AF1A /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		A44C132722DA0AF00018AF1A /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		A44C132822DA0AF00018AF1A /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		A44C132922DA0AF00018AF1A /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		A44C132A22DA0AF00018AF1A /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
+		A44C132B22DA0AF00018AF1A /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		A44C132C22DA0AF00018AF1A /* Boat_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boat_Loader.json; sourceTree = "<group>"; };
+		A44C132D22DA0AF00018AF1A /* GeometryTransformTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GeometryTransformTest.json; sourceTree = "<group>"; };
+		A44C132E22DA0AF00018AF1A /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		A44C132F22DA0AF00018AF1A /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		A44C133022DA0AF00018AF1A /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
+		A44C133122DA0AF00018AF1A /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		A44C133222DA0AF00018AF1A /* base64Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = base64Test.json; sourceTree = "<group>"; };
+		A44C133322DA0AF00018AF1A /* Switch_States.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch_States.json; sourceTree = "<group>"; };
+		A44C133422DA0AF00018AF1A /* FirstText.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirstText.json; sourceTree = "<group>"; };
+		A44C133522DA0AF00018AF1A /* setValueTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = setValueTest.json; sourceTree = "<group>"; };
+		A44C133622DA0AF00018AF1A /* keypathTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = keypathTest.json; sourceTree = "<group>"; };
+		A44C133722DA0AF00018AF1A /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		A44C133822DA0AF00018AF1A /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		A44C133922DA0AF00018AF1A /* timeremap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeremap.json; sourceTree = "<group>"; };
+		A44C136E22DA0B130018AF1A /* LottiePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottiePlay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44C12CB22DA09400018AF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44C130322DA0A440018AF1A /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44C12E122DA09420018AF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44C12EC22DA09420018AF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44C12C522DA09400018AF1A = {
+			isa = PBXGroup;
+			children = (
+				A44C12D022DA09400018AF1A /* SwiftUI_Lottie */,
+				A44C12E722DA09420018AF1A /* SwiftUI_LottieTests */,
+				A44C12F222DA09420018AF1A /* SwiftUI_LottieUITests */,
+				A44C12CF22DA09400018AF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A44C12CF22DA09400018AF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44C12CE22DA09400018AF1A /* SwiftUI_Lottie.app */,
+				A44C12E422DA09420018AF1A /* SwiftUI_LottieTests.xctest */,
+				A44C12EF22DA09420018AF1A /* SwiftUI_LottieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44C12D022DA09400018AF1A /* SwiftUI_Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A44C12D122DA09400018AF1A /* AppDelegate.swift */,
+				A44C12D322DA09400018AF1A /* SceneDelegate.swift */,
+				A44C12D522DA09400018AF1A /* ContentView.swift */,
+				A44C136E22DA0B130018AF1A /* LottiePlay.swift */,
+				A44C12D722DA09420018AF1A /* Assets.xcassets */,
+				A44C12DC22DA09420018AF1A /* LaunchScreen.storyboard */,
+				A44C12DF22DA09420018AF1A /* Info.plist */,
+				A44C130422DA0AF00018AF1A /* TestAnimations */,
+				A44C12D922DA09420018AF1A /* Preview Content */,
+			);
+			path = SwiftUI_Lottie;
+			sourceTree = "<group>";
+		};
+		A44C12D922DA09420018AF1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A44C12DA22DA09420018AF1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A44C12E722DA09420018AF1A /* SwiftUI_LottieTests */ = {
+			isa = PBXGroup;
+			children = (
+				A44C12E822DA09420018AF1A /* SwiftUI_LottieTests.swift */,
+				A44C12EA22DA09420018AF1A /* Info.plist */,
+			);
+			path = SwiftUI_LottieTests;
+			sourceTree = "<group>";
+		};
+		A44C12F222DA09420018AF1A /* SwiftUI_LottieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A44C12F322DA09420018AF1A /* SwiftUI_LottieUITests.swift */,
+				A44C12F522DA09420018AF1A /* Info.plist */,
+			);
+			path = SwiftUI_LottieUITests;
+			sourceTree = "<group>";
+		};
+		A44C130422DA0AF00018AF1A /* TestAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				A44C130522DA0AF00018AF1A /* Switch.json */,
+				A44C130622DA0AF00018AF1A /* TwitterHeart.json */,
+				A44C130722DA0AF00018AF1A /* 9squares-AlBoardman.json */,
+				A44C130822DA0AF00018AF1A /* MotionCorpse-Jrcanest.json */,
+				A44C130922DA0AF00018AF1A /* TwitterHeartButton.json */,
+				A44C130A22DA0AF00018AF1A /* TypeFace */,
+				A44C132922DA0AF00018AF1A /* HamburgerArrow.json */,
+				A44C132A22DA0AF00018AF1A /* vcTransition1.json */,
+				A44C132B22DA0AF00018AF1A /* LottieLogo2.json */,
+				A44C132C22DA0AF00018AF1A /* Boat_Loader.json */,
+				A44C132D22DA0AF00018AF1A /* GeometryTransformTest.json */,
+				A44C132E22DA0AF00018AF1A /* Watermelon.json */,
+				A44C132F22DA0AF00018AF1A /* IconTransitions.json */,
+				A44C133022DA0AF00018AF1A /* vcTransition2.json */,
+				A44C133122DA0AF00018AF1A /* LottieLogo1.json */,
+				A44C133222DA0AF00018AF1A /* base64Test.json */,
+				A44C133322DA0AF00018AF1A /* Switch_States.json */,
+				A44C133422DA0AF00018AF1A /* FirstText.json */,
+				A44C133522DA0AF00018AF1A /* setValueTest.json */,
+				A44C133622DA0AF00018AF1A /* keypathTest.json */,
+				A44C133722DA0AF00018AF1A /* PinJump.json */,
+				A44C133822DA0AF00018AF1A /* LottieLogo1_masked.json */,
+				A44C133922DA0AF00018AF1A /* timeremap.json */,
+			);
+			path = TestAnimations;
+			sourceTree = "<group>";
+		};
+		A44C130A22DA0AF00018AF1A /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				A44C130B22DA0AF00018AF1A /* T.json */,
+				A44C130C22DA0AF00018AF1A /* A.json */,
+				A44C130D22DA0AF00018AF1A /* X.json */,
+				A44C130E22DA0AF00018AF1A /* BlinkingCursor.json */,
+				A44C130F22DA0AF00018AF1A /* M.json */,
+				A44C131022DA0AF00018AF1A /* L.json */,
+				A44C131122DA0AF00018AF1A /* Y.json */,
+				A44C131222DA0AF00018AF1A /* U.json */,
+				A44C131322DA0AF00018AF1A /* K.json */,
+				A44C131422DA0AF00018AF1A /* R.json */,
+				A44C131522DA0AF00018AF1A /* G.json */,
+				A44C131622DA0AF00018AF1A /* F.json */,
+				A44C131722DA0AF00018AF1A /* S.json */,
+				A44C131822DA0AF00018AF1A /* J.json */,
+				A44C131922DA0AF00018AF1A /* I.json */,
+				A44C131A22DA0AF00018AF1A /* E.json */,
+				A44C131B22DA0AF00018AF1A /* Apostrophe.json */,
+				A44C131C22DA0AF00018AF1A /* P.json */,
+				A44C131D22DA0AF00018AF1A /* Q.json */,
+				A44C131E22DA0AF00018AF1A /* D.json */,
+				A44C131F22DA0AF00018AF1A /* Colon.json */,
+				A44C132022DA0AF00018AF1A /* H.json */,
+				A44C132122DA0AF00018AF1A /* C.json */,
+				A44C132222DA0AF00018AF1A /* V.json */,
+				A44C132322DA0AF00018AF1A /* Comma.json */,
+				A44C132422DA0AF00018AF1A /* O.json */,
+				A44C132522DA0AF00018AF1A /* Z.json */,
+				A44C132622DA0AF00018AF1A /* N.json */,
+				A44C132722DA0AF00018AF1A /* W.json */,
+				A44C132822DA0AF00018AF1A /* B.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44C12CD22DA09400018AF1A /* SwiftUI_Lottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44C12F822DA09420018AF1A /* Build configuration list for PBXNativeTarget "SwiftUI_Lottie" */;
+			buildPhases = (
+				A44C12CA22DA09400018AF1A /* Sources */,
+				A44C12CB22DA09400018AF1A /* Frameworks */,
+				A44C12CC22DA09400018AF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUI_Lottie;
+			packageProductDependencies = (
+				A44C130222DA0A440018AF1A /* Lottie */,
+			);
+			productName = SwiftUI_Lottie;
+			productReference = A44C12CE22DA09400018AF1A /* SwiftUI_Lottie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A44C12E322DA09420018AF1A /* SwiftUI_LottieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44C12FB22DA09420018AF1A /* Build configuration list for PBXNativeTarget "SwiftUI_LottieTests" */;
+			buildPhases = (
+				A44C12E022DA09420018AF1A /* Sources */,
+				A44C12E122DA09420018AF1A /* Frameworks */,
+				A44C12E222DA09420018AF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44C12E622DA09420018AF1A /* PBXTargetDependency */,
+			);
+			name = SwiftUI_LottieTests;
+			productName = SwiftUI_LottieTests;
+			productReference = A44C12E422DA09420018AF1A /* SwiftUI_LottieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A44C12EE22DA09420018AF1A /* SwiftUI_LottieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44C12FE22DA09420018AF1A /* Build configuration list for PBXNativeTarget "SwiftUI_LottieUITests" */;
+			buildPhases = (
+				A44C12EB22DA09420018AF1A /* Sources */,
+				A44C12EC22DA09420018AF1A /* Frameworks */,
+				A44C12ED22DA09420018AF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44C12F122DA09420018AF1A /* PBXTargetDependency */,
+			);
+			name = SwiftUI_LottieUITests;
+			productName = SwiftUI_LottieUITests;
+			productReference = A44C12EF22DA09420018AF1A /* SwiftUI_LottieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44C12C622DA09400018AF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = sun;
+				TargetAttributes = {
+					A44C12CD22DA09400018AF1A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A44C12E322DA09420018AF1A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A44C12CD22DA09400018AF1A;
+					};
+					A44C12EE22DA09420018AF1A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A44C12CD22DA09400018AF1A;
+					};
+				};
+			};
+			buildConfigurationList = A44C12C922DA09400018AF1A /* Build configuration list for PBXProject "SwiftUI_Lottie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44C12C522DA09400018AF1A;
+			packageReferences = (
+				A44C130122DA0A440018AF1A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = A44C12CF22DA09400018AF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44C12CD22DA09400018AF1A /* SwiftUI_Lottie */,
+				A44C12E322DA09420018AF1A /* SwiftUI_LottieTests */,
+				A44C12EE22DA09420018AF1A /* SwiftUI_LottieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44C12CC22DA09400018AF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44C135422DA0AF00018AF1A /* H.json in Resources */,
+				A44C135822DA0AF00018AF1A /* O.json in Resources */,
+				A44C135722DA0AF00018AF1A /* Comma.json in Resources */,
+				A44C135022DA0AF00018AF1A /* P.json in Resources */,
+				A44C134A22DA0AF00018AF1A /* F.json in Resources */,
+				A44C134322DA0AF00018AF1A /* M.json in Resources */,
+				A44C135622DA0AF00018AF1A /* V.json in Resources */,
+				A44C135F22DA0AF00018AF1A /* LottieLogo2.json in Resources */,
+				A44C12DE22DA09420018AF1A /* LaunchScreen.storyboard in Resources */,
+				A44C134E22DA0AF00018AF1A /* E.json in Resources */,
+				A44C136A22DA0AF00018AF1A /* keypathTest.json in Resources */,
+				A44C135B22DA0AF00018AF1A /* W.json in Resources */,
+				A44C133D22DA0AF00018AF1A /* MotionCorpse-Jrcanest.json in Resources */,
+				A44C134622DA0AF00018AF1A /* U.json in Resources */,
+				A44C134822DA0AF00018AF1A /* R.json in Resources */,
+				A44C136B22DA0AF00018AF1A /* PinJump.json in Resources */,
+				A44C134F22DA0AF00018AF1A /* Apostrophe.json in Resources */,
+				A44C135122DA0AF00018AF1A /* Q.json in Resources */,
+				A44C135D22DA0AF00018AF1A /* HamburgerArrow.json in Resources */,
+				A44C136222DA0AF00018AF1A /* Watermelon.json in Resources */,
+				A44C134922DA0AF00018AF1A /* G.json in Resources */,
+				A44C136022DA0AF00018AF1A /* Boat_Loader.json in Resources */,
+				A44C133E22DA0AF00018AF1A /* TwitterHeartButton.json in Resources */,
+				A44C133F22DA0AF00018AF1A /* T.json in Resources */,
+				A44C135C22DA0AF00018AF1A /* B.json in Resources */,
+				A44C134522DA0AF00018AF1A /* Y.json in Resources */,
+				A44C136C22DA0AF00018AF1A /* LottieLogo1_masked.json in Resources */,
+				A44C135222DA0AF00018AF1A /* D.json in Resources */,
+				A44C133A22DA0AF00018AF1A /* Switch.json in Resources */,
+				A44C135922DA0AF00018AF1A /* Z.json in Resources */,
+				A44C136122DA0AF00018AF1A /* GeometryTransformTest.json in Resources */,
+				A44C135522DA0AF00018AF1A /* C.json in Resources */,
+				A44C134422DA0AF00018AF1A /* L.json in Resources */,
+				A44C134C22DA0AF00018AF1A /* J.json in Resources */,
+				A44C136722DA0AF00018AF1A /* Switch_States.json in Resources */,
+				A44C135A22DA0AF00018AF1A /* N.json in Resources */,
+				A44C134022DA0AF00018AF1A /* A.json in Resources */,
+				A44C133B22DA0AF00018AF1A /* TwitterHeart.json in Resources */,
+				A44C136422DA0AF00018AF1A /* vcTransition2.json in Resources */,
+				A44C134722DA0AF00018AF1A /* K.json in Resources */,
+				A44C135E22DA0AF00018AF1A /* vcTransition1.json in Resources */,
+				A44C136322DA0AF00018AF1A /* IconTransitions.json in Resources */,
+				A44C12DB22DA09420018AF1A /* Preview Assets.xcassets in Resources */,
+				A44C134D22DA0AF00018AF1A /* I.json in Resources */,
+				A44C12D822DA09420018AF1A /* Assets.xcassets in Resources */,
+				A44C136522DA0AF00018AF1A /* LottieLogo1.json in Resources */,
+				A44C134122DA0AF00018AF1A /* X.json in Resources */,
+				A44C136922DA0AF00018AF1A /* setValueTest.json in Resources */,
+				A44C133C22DA0AF00018AF1A /* 9squares-AlBoardman.json in Resources */,
+				A44C136D22DA0AF00018AF1A /* timeremap.json in Resources */,
+				A44C136622DA0AF00018AF1A /* base64Test.json in Resources */,
+				A44C134222DA0AF00018AF1A /* BlinkingCursor.json in Resources */,
+				A44C136822DA0AF00018AF1A /* FirstText.json in Resources */,
+				A44C135322DA0AF00018AF1A /* Colon.json in Resources */,
+				A44C134B22DA0AF00018AF1A /* S.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44C12E222DA09420018AF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44C12ED22DA09420018AF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44C12CA22DA09400018AF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44C12D222DA09400018AF1A /* AppDelegate.swift in Sources */,
+				A44C12D422DA09400018AF1A /* SceneDelegate.swift in Sources */,
+				A44C136F22DA0B130018AF1A /* LottiePlay.swift in Sources */,
+				A44C12D622DA09400018AF1A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44C12E022DA09420018AF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44C12E922DA09420018AF1A /* SwiftUI_LottieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44C12EB22DA09420018AF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44C12F422DA09420018AF1A /* SwiftUI_LottieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A44C12E622DA09420018AF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44C12CD22DA09400018AF1A /* SwiftUI_Lottie */;
+			targetProxy = A44C12E522DA09420018AF1A /* PBXContainerItemProxy */;
+		};
+		A44C12F122DA09420018AF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44C12CD22DA09400018AF1A /* SwiftUI_Lottie */;
+			targetProxy = A44C12F022DA09420018AF1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A44C12DC22DA09420018AF1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44C12DD22DA09420018AF1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A44C12F622DA09420018AF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A44C12F722DA09420018AF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A44C12F922DA09420018AF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SwiftUI_Lottie/Preview\\ Content";
+				DEVELOPMENT_TEAM = X3N5XPMN8M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUI_Lottie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SwiftUI-Lottie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A44C12FA22DA09420018AF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SwiftUI_Lottie/Preview\\ Content";
+				DEVELOPMENT_TEAM = X3N5XPMN8M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUI_Lottie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SwiftUI-Lottie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A44C12FC22DA09420018AF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3N5XPMN8M;
+				INFOPLIST_FILE = SwiftUI_LottieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SwiftUI-LottieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI_Lottie.app/SwiftUI_Lottie";
+			};
+			name = Debug;
+		};
+		A44C12FD22DA09420018AF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3N5XPMN8M;
+				INFOPLIST_FILE = SwiftUI_LottieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SwiftUI-LottieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI_Lottie.app/SwiftUI_Lottie";
+			};
+			name = Release;
+		};
+		A44C12FF22DA09420018AF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3N5XPMN8M;
+				INFOPLIST_FILE = SwiftUI_LottieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SwiftUI-LottieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUI_Lottie;
+			};
+			name = Debug;
+		};
+		A44C130022DA09420018AF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3N5XPMN8M;
+				INFOPLIST_FILE = SwiftUI_LottieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SwiftUI-LottieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUI_Lottie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44C12C922DA09400018AF1A /* Build configuration list for PBXProject "SwiftUI_Lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44C12F622DA09420018AF1A /* Debug */,
+				A44C12F722DA09420018AF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44C12F822DA09420018AF1A /* Build configuration list for PBXNativeTarget "SwiftUI_Lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44C12F922DA09420018AF1A /* Debug */,
+				A44C12FA22DA09420018AF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44C12FB22DA09420018AF1A /* Build configuration list for PBXNativeTarget "SwiftUI_LottieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44C12FC22DA09420018AF1A /* Debug */,
+				A44C12FD22DA09420018AF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44C12FE22DA09420018AF1A /* Build configuration list for PBXNativeTarget "SwiftUI_LottieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44C12FF22DA09420018AF1A /* Debug */,
+				A44C130022DA09420018AF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A44C130122DA0A440018AF1A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A44C130222DA0A440018AF1A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A44C130122DA0A440018AF1A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A44C12C622DA09400018AF1A /* Project object */;
+}
